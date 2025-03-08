@@ -1,0 +1,238 @@
+
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.home-page {
+    background: linear-gradient(-45deg, #894185, #c80ca2, #aa699f, #be75b2);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color:rgb(30, 178, 178);
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-dark{
+    background-color: rgb(129, 14, 201);
+}
+
+.circular-image-container{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circular-image{
+    width: 105%;
+    height: auto;
+    display: block;
+}
+ 
+/*
+@keyframes glow {
+from {
+    text-shadow: 0 0 5px #ab2fb9, 0 0 10px #a142ab, 0 0 15px #a125b4;
+}
+to {
+    text-shadow: 0 0 10px #a11c79, 0 0 20px #bc2cb7, 0 0 30px #922bbf;
+}
+}
+
+.name{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    animation: glow 1.5s infinite alternate;
+}
+*/
+
+
+@keyframes typing {
+    from { width: 20%; }
+    to { width: 100%; }
+}
+
+
+.name{
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 1.2s forwards ;
+}
+
+
+.title{
+    color: rgb(193, 223, 232);
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #2d0932;
+}
+
+
+
+
+
+                                                          /* about page*/
+                                                      
+.about-page{
+    background: linear-gradient(-45deg, #b577c3, #b34b9e, #9f1db6, #cb5fe4);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+
+
+.profile_img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.degree {
+    border: none;
+    background-color: rgb(103, 28, 174);
+    color: rgb(252, 253, 253);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+                                                        /* skill page*/
+
+.skill-page{
+    background: linear-gradient(-45deg, #c77aa3, #9a6790, #b720cf, #be75b2);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+
+.skills-section {
+    background: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.skill-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: #f8f9fa;
+}
+.skill-card:hover {
+    background: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+}
+.skill-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+                                                        /* project page */
+
+
+.project-page{
+     background: linear-gradient(-45deg, #c032dc, #cd54b5, #b533c4, #dca0d2);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+                                                        /* contact page*/
+
+.contact-page{
+    background: linear-gradient(-45deg, #e055d9, #c80ca2, #e79ada, #7c0b6a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(95, 20, 132, 0.812);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(212, 27, 203, 0.892);
+}
+.form-control {
+    background: rgba(227, 215, 227, 0.953);
+    border: none;
+    color: rgb(236, 231, 231);
+}
+.form-control:focus {
+    background: rgba(163, 152, 152, 0.897);
+    color: rgb(247, 244, 244);
+}
+.form-control::placeholder {
+    color: rgb(20, 3, 3);
+}
+.btn-custom {
+    background: #aa0daa;
+    color: white;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background: #ff416c;
+}
+
+
+
+
+
+
+
+

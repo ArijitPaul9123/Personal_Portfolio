@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block body_class %}project-page{% endblock %}
+{% load static %}
+{% block content1 %}
+
+<div class="container py-5">
+    <h2 class="text-center mb-4 text-light">My Projects</h2>
+    <hr>
+    <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <div class="card-body">
+                    <h4 class="card-title text-center mb-4">Personal Portfolio</h4>
+                    <p class="card-text">This Personal Portfolio Website is a visually appealing and fully responsive web application designed with <strong>HTML, CSS, Bootstrap, and Django.</strong></p>
+                    <a href="#" class="btn btn-dark">GitHub</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <div class="card-body">
+                    <h4 class="card-title text-center mb-4">Currency Converter</h4>
+                    <p class="card-text">This Currency Converter Application is a <strong>Python-based</strong> desktop application built with <strong>Tkinter (GUI framework)</strong>. It allows users to convert between different currencies using real-time exchange rates fetched from a <strong>REST API</strong>. The app provides an intuitive and interactive user interface for a seamless experience.</p>
+                    <a href="https://github.com/ArijitPaul9123/Currency_Converter" target="_blank" class="btn btn-dark">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content1 %}

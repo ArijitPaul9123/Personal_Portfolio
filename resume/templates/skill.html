@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block body_class %}skill-page{% endblock %}
+{% load static %}
+{% block content1 %}
+<div class="container my-5">
+    <h2 class="section-title text-light">My Skills</h2>
+
+    <hr>
+    
+    <div class="row">
+        <!-- Tech Skills -->
+        <h4 class="text-center mb-4 text-light">Tech Skills</h4>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/python.png' %}" alt="Python">
+                <h6>Python3</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/c-programming.png' %}" alt="C">
+                <h6>C</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/javascript.png' %}" alt="JavaScript">
+                <h6>JavaScript</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/html.png' %}" alt="HTML">
+                <h6>HTML</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/css-logo.png' %}" alt="CSS">
+                <h6>CSS</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/bootstrap.png' %}" alt="Bootstrap">
+                <h6>Bootstrap</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <img src="{% static 'images/my-sql.png' %}" alt="SQL">
+                <h6>SQL</h6>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="row mt-4">
+        <!-- Soft Skills -->
+        <h4 class="text-center mb-4 text-light">Soft Skills</h4>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <i class="fas fa-brain fa-3x"></i>
+                <h6>Analytical Thinking</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <i class="fas fa-bolt fa-3x"></i>
+                <h6>Quick Learner</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <i class="fas fa-clock fa-3x"></i>
+                <h6>Time Management</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="skill-card">
+                <i class="fas fa-users fa-3x"></i>
+                <h6>Teamwork</h6>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content1 %}

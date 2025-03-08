@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block body_class %}home-page{% endblock %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-items-center ">
+        <div class="circular-image-container">
+            <img class="circular-image" src=" {% static 'images/my.jpg' %}" alt="image">
+        </div>
+    </div>
+
+    <div class="col-12 text-center mt-3">
+        <h5 class="title">Hi! My Name is </h5>
+            <div class="name">
+                <h1>Arijit Paul</h1>
+            </div>
+    </div>
+
+    <div class="col-12 text-center mt-3">
+        <div class="col-12 d-flex justify-content-center align-items-center ">
+            <a href="https://www.linkedin.com/in/arijit-paul-3585172a8" target="_blank" >
+            <img src="{% static 'images/linkedin.webp'%}" alt="images/linkedin.webp" width="30" height="30" class="social_links">
+            </a>
+
+            <a href="https://github.com/ArijitPaul9123" target="_blank" class="ms-2">
+            <img src="{% static 'images/github.webp'%}" alt="images/github.webp" width="30" height="30" class="social_links">
+            </a>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a href="{% static 'ARIJIT_PAUL_Resume_.pdf' %}" class="btn btn-primary" download>Resume</a>
+
+
+        </div>    
+    </div>
+
+</div>
+{% endblock content1 %}
